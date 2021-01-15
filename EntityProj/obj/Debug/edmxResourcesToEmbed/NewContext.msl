@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище MyDBModelContainer" CdmEntityContainer="MyDBEntities">
+    <EntitySetMapping Name="t_videoAdapters">
+      <EntityTypeMapping TypeName="MyDBModel.t_videoAdapters">
+        <MappingFragment StoreEntitySet="t_videoAdapters">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="form_factor" ColumnName="form_factor" />
+          <ScalarProperty Name="video_memory" ColumnName="video_memory" />
+          <ScalarProperty Name="title" ColumnName="title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
